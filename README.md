@@ -51,30 +51,11 @@ captcha_platform/
 
 ## How It Works
 
-1. **Image Processing Method-1** (EasyOCR): Fast, good for standard captchas
-2. **Image Processing Method-2** (TrOCR): Advanced AI for complex captchas
+1. **Image Processing Method-1**: Fast, good for standard captchas
+2. **Image Processing Method-2**: Advanced AI for complex captchas
 3. **Text Cleaning**: Removes non-alphanumeric characters before comparison
 4. **Exact Match**: 100% accuracy if prediction matches user input, 0% otherwise
 
-## API Endpoints
-
-### `POST /analyze_single`
-Analyze a single captcha image
-
-**Parameters:**
-- `captcha`: Image file
-- `user_answer`: Correct answer
-
-### `POST /generate_report`
-Generate comprehensive analysis report
-
-**Body:**
-```json
-{
-  "results": [...],
-  "user_answers": [...]
-}
-```
 
 ## Report Metrics
 
