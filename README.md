@@ -4,7 +4,7 @@ A web-based platform for analyzing captcha difficulty using dual image processin
 
 ## Features
 
-- **Dual Algorithm Testing**: EasyOCR and TrOCR (Transformer-based)
+- **Dual Algorithm Testing**: Transformer-based
 - **Batch Processing**: Analyze 5-15 captchas simultaneously
 - **Automated Difficulty Classification**: EASY / MEDIUM / HARD based on algorithm performance
 - **Real-time Progress Tracking**: Live updates during analysis
